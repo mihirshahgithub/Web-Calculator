@@ -53,7 +53,7 @@ span{
     text-align:center;
 }
 
-#data{
+.number_container{
     background-color:silver;
     border:5px solid darkorange;
     width:300px;
