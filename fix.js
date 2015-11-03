@@ -49,7 +49,8 @@ function calculate() {
 function arithmetic(num1, operator, num2) {
     switch (operator) {
         case '+':
-           var result = num1 + num2;
+           var result = parseInt(num1) +parseInt(num2);
+            //if(){}
             break;
         case '-':
             var result = num1 - num2;

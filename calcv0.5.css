@@ -6,6 +6,7 @@ body{
 
 
 #display_area{
+    position:relative;
     width:300px;
     height:100px;
     background-color:#cccccc;
@@ -23,19 +24,29 @@ body{
 }
 
 .operator_container{
+    position:relative;
     background-color:silver;
-    border:5px solid darkorange;
-    width:300px;
+    width:52px;
+    float:right;
+    bottom:200px;
+    right:470px;
 }
 
 .equals_container{
+    position:relative;
+    left:105px;
+    bottom:53px;
     background-color:silver;
-    border:5px solid darkorange;
-    width:300px;
+    width:40px;
+
 }
 
 .clear_container{
     background-color:silver;
     border:5px solid darkorange;
     width:300px;
+}
+
+button{
+    background-color:orange;
 }
