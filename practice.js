@@ -1,22 +1,32 @@
+//defining global variables
 var num1=null;
 var num2=null;
+var i=0;
 var operator=null;
-
-
+var num_array=['']; //will be used to populate with operators/operands
 var result= parseInt(num1) + operator + parseInt(num2);
 
-function callback(type,value,item) {
-    switch (value) {
-        case undefined:
-            $("#display_area").html("");
-            break;
-        default:
-            $("#display_area").html(value);
-            break;
-    }
-}
 
 function calculate(num1,num2,operator){
+    for(i=0; i<num_array.length;i++)
+    {
+        if(!isNaN(num_array[i]))
+        //is a number
+        {
+            if(num1===null) {
+                num1=num_array[i];
+                console.log(num1);
+            }
+            else{
+                num2=num_array[i];
+                console.log(num2);
+            }
+        }
+        else{
+            op=num_array[i];
+
+        }
+
 
 
 
