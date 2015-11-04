@@ -25,17 +25,16 @@ body{
 
 .operator_container{
     position:relative;
+    bottom:195px;
+    left:200px;
     background-color:silver;
     width:52px;
-    float:right;
-    bottom:200px;
-    right:470px;
 }
 
 .equals_container{
     position:relative;
     left:105px;
-    bottom:53px;
+    bottom:245px;
     background-color:silver;
     width:40px;
 
